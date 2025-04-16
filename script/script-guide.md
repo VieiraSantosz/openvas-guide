@@ -80,6 +80,7 @@ http://<IP-do-Servidor:9392>
 Ao abrir a interface, será exibida a tela de login. Use as credenciais padrão para acessar:
 
 **Usuário:** admin
+
 **Senha:** admin
 
 ![image](https://github.com/user-attachments/assets/58360927-e99a-4cd4-8026-2b755781ebb1)
