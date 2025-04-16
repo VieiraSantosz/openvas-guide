@@ -78,11 +78,8 @@ http://<IP-do-Servidor:9392>
 
 **2. Login inicial**
 
-Ao abrir a interface, será exibida a tela de login. Use as credenciais padrão para acessar:
+Utilize as credenciais fornecidas durante a instalação para realizar o login na plataforma.
 
-**Usuário:** admin
-
-**Senha:** admin
 
 ![image](https://github.com/user-attachments/assets/58360927-e99a-4cd4-8026-2b755781ebb1)
 
