@@ -59,3 +59,26 @@ Com o repositório adicionado, você pode instalar o Docker Engine e os plugins 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
 **Nota**: Verifique se o serviço do Docker está ativo com **sudo systemctl status docker**.
+
+
+## Instalação do OpenVAS
+
+**1. Baixar o projeto OpenVAS**
+```bash
+mkdir openvas
+cd openvas
+curl -f -L https://greenbone.github.io/docs/latest/_static/docker-compose-22.4.yml -o docker-compose.yml
+```
+
+**2. Configurar o projeto OpenVAS**
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+```
+
+
+
+
+
+
+
+
