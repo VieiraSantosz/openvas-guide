@@ -64,6 +64,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ## Instalação do OpenVAS
 
 **1. Baixar o projeto OpenVAS**
+
+Nesta etapa, você irá preparar o ambiente local criando uma pasta específica para o OpenVAS e baixando o arquivo docker-compose.yml, responsável por definir os serviços do OpenVAS via Docker.
 ```bash
 mkdir openvas
 cd openvas
@@ -71,41 +73,56 @@ curl -f -L https://greenbone.github.io/docs/latest/_static/docker-compose-22.4.y
 ```
 
 **2. Configurar o projeto OpenVAS**
+
+Este comando substitui o IP padrão (127.0.0.1) pelo IP real da sua máquina. Isso é necessário para que os serviços possam ser acessados de fora do container.
 ```bash
 sed -i "s|127.0.0.1|$(hostname -I | awk '{print $1}')|g" docker-compose.yml
 ```
 
 **3. Iniciar os serviços do OpenVAS**
+
+Agora que tudo está configurado, você pode iniciar os serviços do OpenVAS. O Docker irá baixar as imagens necessárias e levantar os containers definidos.
 ```bash
 docker compose up -d
 ```
 
 ![image](https://github.com/user-attachments/assets/027f7ff1-90d1-4468-b01b-5ab530f3ebd6)
 
-Nota: O processo pode levar alguns minutos na primeira execução. Aguarde até que todos os serviços estejam ativos.
+Nota: O processo pode levar alguns minutos na primeira execução, pois o Docker precisará baixar as imagens e realizar a configuração inicial. Aguarde até que todos os serviços estejam ativos.
 
 
 ## Primeiro acesso à plataforma
 
 **1. Acessar a interface web**
 
-Após a instalação, abra o seu navegador e insira a seguinte URL para acessar a plataforma do OpenVAS:
+Depois que os serviços estiverem ativos, abra o navegador e acesse a interface web do OpenVAS utilizando o IP da sua máquina seguido da porta 9392.
 ```bash
 http://<IP-do-Servidor:9392>
 ```
 
 **2. Login inicial**
 
-Ao acessar pela primeira vez, você verá a tela de login do OpenVAS. Use as credenciais admin tanto para o nome de usuário quanto para a senha.
+Ao abrir a interface, será exibida a tela de login. Use as credenciais padrão para acessar:
+**Usuário:** admin
+**Senha:** admin
 
 ![image](https://github.com/user-attachments/assets/58360927-e99a-4cd4-8026-2b755781ebb1)
 
 
 **3. Após o Login**
 
-Depois de acessar o sistema, você poderá começar a explorar os recursos e customizar a plataforma conforme suas necessidades.
+Após o login, você terá acesso ao painel do OpenVAS. A partir daí, poderá explorar as funcionalidades da ferramenta, realizar varreduras e customizar conforme suas necessidades.
 
 ![image](https://github.com/user-attachments/assets/3eb18050-5048-433c-820f-f9a6f1896743)
+
+
+## Solução de Problemas
+
+Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
+- **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor consegue acessar os repositórios necessários para baixar as imagens Docker.
+- **Acesso à interface web:** Se você não consegue acessar a interface web do OpenVAS, certifique-se de que a porta 9392 está aberta no firewall do servidor.
+- **Problemas com Docker:** Confirme se o Docker está em execução com docker ps.
+- **Containers não iniciam:** Containers não iniciam: Use o comando abaixo para ver os logs e identificar possíveis erros com docker compose logs.
 
 
 
