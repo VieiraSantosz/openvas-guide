@@ -2,8 +2,8 @@
 #
 # openvas.sh - faz a instalação da ferramenta OpenVAS (Vulnerability Assessment System)
 #
-# Autor..: Wesley Santos  <wesantos@goaheadit.com.br>
-# Auxílio: Daniel Brandão <dbrandao@goaheadit.com.br>
+# Autor..: Wesley Santos  <wesleyv760@gmail.com>
+# Auxílio: Daniel Brandão <>
 #
 # -------------------------------------------------------------------------------------
 #
