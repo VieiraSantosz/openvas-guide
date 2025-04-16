@@ -78,6 +78,7 @@ http://<IP-do-Servidor:9392>
 **2. Login inicial**
 
 Ao abrir a interface, será exibida a tela de login. Use as credenciais padrão para acessar:
+
 **Usuário:** admin
 **Senha:** admin
 
