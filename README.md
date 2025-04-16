@@ -1,6 +1,6 @@
 <h1 align="center">
 
-[![Sem título](https://github.com/user-attachments/assets/f74dc857-6ceb-412a-9286-3d957354ac13)](https://www.openvas.org/)]
+[![Sem título](![image](https://github.com/user-attachments/assets/f32ba4f9-dd28-4195-aa2c-bb8e0b54955a)](https://www.openvas.org/)
 
 OpenVAS (Vulnerability Assessment System)
 </h1>
