@@ -15,6 +15,6 @@ OpenVAS (Vulnerability Assessment System)
 
 Existem duas formas de realizar a instalação:
 
-**1. Instalação manual:** Siga as instruções no arquivo [install-guide.md]() para realizar a instalação passo a passo.
+**1. Instalação manual:** Siga as instruções no arquivo [install-guide.md](https://github.com/VieiraSantosz/openvas-guide/blob/main/install-guide.md) para realizar a instalação passo a passo.
 
-**2. Usando script:** Acesse a pasta [script](), faça o download do script install_openvas.sh, e siga as orientações de uso.
+**2. Usando script:** Acesse a pasta [script](https://github.com/VieiraSantosz/openvas-guide/tree/main/script), faça o download do script install_openvas.sh, e siga as orientações de uso.
