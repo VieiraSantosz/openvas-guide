@@ -80,7 +80,7 @@ sed -i "s|127.0.0.1|<IP-do-Servidor>|g" "docker-compose.yml"
 docker compose up -d
 ```
 
-![image](https://github.com/user-attachments/assets/faa5d833-965e-418f-9999-f2acae85d242)
+![image](https://github.com/user-attachments/assets/027f7ff1-90d1-4468-b01b-5ab530f3ebd6)
 
 Nota: O processo pode levar alguns minutos na primeira execução. Aguarde até que todos os serviços estejam ativos.
 
@@ -105,7 +105,7 @@ Ao acessar pela primeira vez, você verá a tela de login do OpenVAS. Use as cre
 
 Depois de acessar o sistema, você poderá começar a explorar os recursos e customizar a plataforma conforme suas necessidades.
 
-![image](https://github.com/user-attachments/assets/fc1343af-aeb4-4998-8ee0-4cd306f10a82)
+![image](https://github.com/user-attachments/assets/3eb18050-5048-433c-820f-f9a6f1896743)
 
 
 
