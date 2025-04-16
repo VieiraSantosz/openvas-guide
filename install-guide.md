@@ -72,13 +72,40 @@ curl -f -L https://greenbone.github.io/docs/latest/_static/docker-compose-22.4.y
 
 **2. Configurar o projeto OpenVAS**
 ```bash
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+sed -i "s|127.0.0.1|<IP-do-Servidor>|g" "docker-compose.yml"
 ```
 
+**3. Iniciar os serviços do OpenVAS**
+```bash
+docker compose up -d
+```
+
+![image](https://github.com/user-attachments/assets/faa5d833-965e-418f-9999-f2acae85d242)
+
+Nota: O processo pode levar alguns minutos na primeira execução. Aguarde até que todos os serviços estejam ativos.
 
 
+## Primeiro acesso à plataforma
+
+**1. Acessar a interface web**
+
+Após a instalação, abra o seu navegador e insira a seguinte URL para acessar a plataforma do OpenVAS:
+```bash
+http://<IP-do-Servidor:9392>
+```
+
+**2. Login inicial**
+
+Ao acessar pela primeira vez, você verá a tela de login do OpenVAS. Use as credenciais admin tanto para o nome de usuário quanto para a senha.
+
+![image](https://github.com/user-attachments/assets/58360927-e99a-4cd4-8026-2b755781ebb1)
 
 
+**3. Após o Login**
+
+Depois de acessar o sistema, você poderá começar a explorar os recursos e customizar a plataforma conforme suas necessidades.
+
+![image](https://github.com/user-attachments/assets/fc1343af-aeb4-4998-8ee0-4cd306f10a82)
 
 
 
