@@ -71,7 +71,7 @@ Após a instalação, o script fornecerá o link de acesso à interface web. Gua
 
 **1. Acessar a interface web**
 
-Depois que os serviços estiverem ativos, abra o navegador e acesse a interface web do OpenVAS utilizando o IP da sua máquina seguido da porta 9392.
+Abra o navegador e acesse a interface web do OpenVAS utilizando o IP da sua máquina seguido da porta 9392.
 ```bash
 http://<IP-do-Servidor:9392>
 ```
