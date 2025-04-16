@@ -72,7 +72,7 @@ curl -f -L https://greenbone.github.io/docs/latest/_static/docker-compose-22.4.y
 
 **2. Configurar o projeto OpenVAS**
 ```bash
-sed -i "s|127.0.0.1|<IP-do-Servidor>|g" "docker-compose.yml"
+sed -i "s|127.0.0.1|$(hostname -I | awk '{print $1}')|g" docker-compose.yml
 ```
 
 **3. Iniciar os serviços do OpenVAS**
