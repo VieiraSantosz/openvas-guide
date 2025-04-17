@@ -61,7 +61,7 @@ Agora, execute o script para iniciar a instalação do Grafana.
 ![image](https://github.com/user-attachments/assets/2589a0d3-4fbf-4b3b-903b-04a5ca431583)
 
 
-Após a instalação, o script fornecerá o link de acesso à interface web. Guarde essa informação, pois você precisará dela para acessar a plataforma do OpenVAS.
+Após a instalação, o script fornecerá as credenciais para o primeiro acesso **(user e senha)** e o link de acesso à interface web. Guarde essas informações, pois você precisará delas para acessar a plataforma do OpenVAS.
 
 ![image](https://github.com/user-attachments/assets/0ac691a3-0f67-4c76-8839-9bd67000c040)
 
