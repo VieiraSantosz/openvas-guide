@@ -21,6 +21,7 @@ Antes de executar o script, verifique se o seu servidor atende aos seguintes req
 - **Mínimo de memória RAM:** 8 GB
 - **Mínimo de CPU:** 4 CPU
 
+<br>
 
 ## Execução do Script
 **1. Atualizar o servidor**
@@ -65,7 +66,7 @@ Após a instalação, o script fornecerá as credenciais para o primeiro acesso 
 
 ![image](https://github.com/user-attachments/assets/0ac691a3-0f67-4c76-8839-9bd67000c040)
 
-
+<br>
 
 ## Primeiro acesso à plataforma
 
@@ -90,6 +91,7 @@ Após o login, você terá acesso ao painel do OpenVAS. A partir daí, poderá e
 
 ![image](https://github.com/user-attachments/assets/3eb18050-5048-433c-820f-f9a6f1896743)
 
+<br>
 
 ## Solução de Problemas
 
